@@ -16,3 +16,6 @@ jobs:
                 echo '${{ toJson(runner) }}'
                 echo '${{ toJson(vars) }}'
 
+            - run: echo '${{ github.event.commits[0].author.email }}'
+
+
