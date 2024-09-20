@@ -15,8 +15,8 @@ jobs:
             
             - name: Only on pull_request
               if: github.event_name == 'pull_request'
-              run: echo "Foi feito um pull_request"
-              
+              run: echo "Foi feito um pull_request!"
+
 
 
             
